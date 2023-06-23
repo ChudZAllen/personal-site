@@ -1,10 +1,11 @@
 import Link from "next/link"
+import Intro from "@/components/intro"
 
 
 export default function Home() {
     return (
     <div>
-        <h1>Hello World!</h1>
+        <Intro/>
         <h2>
             <Link href='pages/about'>About Me</Link>
             <br />
